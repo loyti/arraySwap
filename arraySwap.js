@@ -1,7 +1,7 @@
 var playerFavs = ["Ted", "Pedro", "Wakefield", "Yastrzemski", "Bogaerts", 8, 9, 2];
 var playerNums = [];
 function getPlayerNumbers () {
-    document.write()
+    document.write();
     for (var i = 0; i < playerFavs.length; i++){
         if (typeof(playerFavs[i] === "number")){
             playerNums.push(i);
